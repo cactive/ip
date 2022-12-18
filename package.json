@@ -1,7 +1,7 @@
 {
   "name": "@cactive/ip",
   "description": "Swiftly retrieves data pertaining to an IP address.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://ip.cactive.co",
   "main": "dist/index.js",
   "license": "SEE LICENSE IN LICENCE.md",
