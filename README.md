@@ -32,7 +32,7 @@ const examples = async () => {
 
     // Get the time zone of a domain, IPv4 or IPv6
     const external = await ip.retrieve("cactive.cloud");
-    console.log(self.time_zone); // eg: Australia/Melbourne
+    console.log(external.time_zone); // eg: Australia/Melbourne
 };
 
 examples();
