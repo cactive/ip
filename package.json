@@ -1,0 +1,19 @@
+{
+  "name": "@cactive/ip",
+  "description": "Swiftly retrieves data pertaining to an IP address.",
+  "version": "1.0.1",
+  "homepage": "https://ip.cactive.co",
+  "main": "dist/index.js",
+  "license": "SEE LICENSE IN LICENCE.md",
+  "author": "Cactive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CactiveNetwork/ip.git"
+  },
+  "dependencies": {
+    "phin": "^3.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
