@@ -48,7 +48,7 @@ examples();
 | `state_code`       | String or Null | `VA`                |
 | `country`          | String or Null | `United States`     |
 | `country_code`     | String or Null | `US`                |
-| `country_curerncy` | String or Null | `USD`               |
+| `country_currency` | String or Null | `USD`               |
 | `continent`        | String or Null | `North America`     |
 | `continent_code`   | String or Null | `NA`                |
 | `post_code`        | String or Null | `20149`             |
