@@ -27,15 +27,15 @@ export type Data = {
 
 const fetch = async (ip: string | null): Promise<Data> => {
   const { body }: any = await phin({
-    url: `https://ip.cactive.co/${ip ?? ''}`,
+    url: `https://ip.cactive.co/api/lookup/${ip ?? ''}`,
     method: "GET",
     parse: "json",
   }).catch((error) => {
     throw new Error(error);
   });
 
-  if (!body.success) throw new Error(body.errors[0].message);
-  return body.data;
+  if (body.errors) throw new Error(body.errors[0].message);
+  return body;
 }
 
 export const self = (): Promise<Data> => fetch(null);
