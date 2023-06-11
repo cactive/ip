@@ -6,11 +6,11 @@
 
 This is a free to use API hosted in Melbourne, Australia that provides detailed information of IP addresses.
 
-You can request the API through the HTTP or HTTPS protocol and the `GET` method at [ip.cactive.co/api/lookup/](https://ip.cactive.co/api/lookup/).
+You can request the API through the HTTP or HTTPS protocol and the `GET` method at [ip.cactive.com.au/api/lookup/](https://ip.cactive.com.au/api/lookup/).
 
 You can either provide an IP address with `/api/lookup/[ip]` or leave it blank to get the IP address of the requester.
 
-**Example:** https://ip.cactive.co/api/lookup/8.8.8.8
+**Example:** https://ip.cactive.com.au/api/lookup/8.8.8.8
 
 ---
 

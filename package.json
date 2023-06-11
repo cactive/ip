@@ -1,8 +1,8 @@
 {
   "name": "@cactive/ip",
   "description": "Swiftly retrieves data pertaining to an IP address.",
-  "version": "1.0.4",
-  "homepage": "https://ip.cactive.co",
+  "version": "1.0.5",
+  "homepage": "https://ip.cactive.com.au",
   "main": "dist/index.js",
   "license": "SEE LICENSE IN LICENCE.md",
   "author": "Cactive",

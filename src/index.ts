@@ -27,7 +27,7 @@ export type Data = {
 
 const fetch = async (ip: string | null): Promise<Data> => {
   const { body }: any = await phin({
-    url: `https://ip.cactive.co/api/lookup/${ip ?? ''}`,
+    url: `https://ip.cactive.com.au/api/lookup/${ip ?? ''}`,
     method: "GET",
     parse: "json",
   }).catch((error) => {
